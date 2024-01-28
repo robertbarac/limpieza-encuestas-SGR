@@ -1,0 +1,6 @@
+-CAMBIAR 'HACE CUANTO TIEMPO VIVE EN ESE LUGAR' A ENTERO
+-CAMBIAR 'EDAD' A ENTERO
+-zona_san_martin['EN QUE NIVEL LO CALIFICARON '].unique() arroja ['A1', 'A2', 'B2', 'B1', 'C2', 'A3', 'A', 'A4', 'B3', 'B7']
+cámbiame las que sean solo 'A' por 'A1'
+-de zona_san_martin['RAZONES POR LAS QUE SE MUDO '] cambia el 'NO APLICA' por 0.
+-buscar a todo aquel que tuvo pasado en 'OFICIOS DESEMPEÑADOS ANTERIORMENTE' en minería, es decir, en esa columna buscar que contenga 'MIN' ó 'MINER', pasarlo como minero a la columna de 'OFICIO ACTUAL'.
